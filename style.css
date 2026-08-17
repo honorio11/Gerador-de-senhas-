@@ -5,13 +5,31 @@
     --fundo-senha: #393e46;
     --fundo-texto: #948979;
     --borda: #dfd0b8;
-    --roboto: "Roboto Slab",sans-serif;
+    --fonte: "Roboto Slab",sans-serif;
 }
- {
-    font-weight:400;
- }
+ *{
+      font-weight:400
+
+      }
+ 
   body{
     color:var(--branco)
     background-color var(--cor-de-fundo);
     font-family: var(--roboto)
   }
+  .titulo-pincipal{
+    font-family:var(--fonte);
+    font-size: 32px;
+  }
+    .titulo-secundario{
+      font-size: 24px;
+      text-align: center;
+      margin: 80px
+    }
+    .conteudo-titulo{
+      text-align: center;
+      margin-top: 80px;
+    }
+.cadeado-conteudo{
+  width: 100px;
+}
